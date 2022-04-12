@@ -5,8 +5,8 @@
 Ignore me, it just helps me to have this here.
 
 ###### HTML
-- [ ] Button to Generate Random Studio Ghibli Movie
-- [ ] Area to Display Title Information
+- [x] Button to Generate Random Studio Ghibli Movie
+- [x] Area to Display Title Information
     - English Title
     - Original Title
     - Original Title Romanised
@@ -17,9 +17,9 @@ Ignore me, it just helps me to have this here.
     - Release Year
     - Movie Rating
     - Movie Run Time
-- [ ] Create Add to Watch List Button
-- [ ] Create Already Watched Button
-- [ ] Create Collapsable/Toggle List of Watch List and Already Watched List
+- [x] Create Add to Watch List Button
+- [x] Create Already Watched Button
+- [x] Create Collapsable/Toggle List of Watch List and Already Watched List
 
 ###### CSS
 - [ ] Pick Simple Color Palette
