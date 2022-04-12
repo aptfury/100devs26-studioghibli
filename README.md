@@ -7,7 +7,7 @@ Ignore me, it just helps me to have this here.
 ###### HTML
 - [ ] Button to Generate Random Studio Ghibli Movie
 - [ ] Area to Display English Title
-    - Area to Display Original Title
+- [ ] Area to Display Original Title
 - [ ] Area to Display Original Title Romanised
 - [ ] Area to Display Description
 - [ ] Area to Display Director
