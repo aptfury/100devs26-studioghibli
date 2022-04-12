@@ -6,16 +6,17 @@ Ignore me, it just helps me to have this here.
 
 ###### HTML
 - [ ] Button to Generate Random Studio Ghibli Movie
-- [ ] Area to Display English Title
-- [ ] Area to Display Original Title
-- [ ] Area to Display Original Title Romanised
-- [ ] Area to Display Description
-- [ ] Area to Display Director
-- [ ] Area to Display Producer
-- [ ] Area to Display Movie Banner
-- [ ] Area to Display Release Year
-- [ ] Area to Display Rating
-- [ ] Area to Display Run Time
+- [ ] Area to Display Title Information
+    - English Title
+    - Original Title
+    - Original Title Romanised
+    - Description
+    - Director
+    - Producer
+    - Movie Poster
+    - Release Year
+    - Movie Rating
+    - Movie Run Time
 - [ ] Create Add to Watch List Button
 - [ ] Create Already Watched Button
 - [ ] Create Collapsable/Toggle List of Watch List and Already Watched List
