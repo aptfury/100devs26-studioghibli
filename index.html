@@ -11,7 +11,86 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Main Page Introudction -->
+    <section class="pageInfo">
+        <h1>Studio Ghibli Watch List</h1>
+        <p>Have you seen every Studio Ghibli movie? Well, better get crackin'! Use the magic button below to generate a random Studio Ghibli movie then tell us if you've seen it or add it to the list of movies to watch. Keep cycling through them until you've completed your lists. If you need to mark one off, just click on the title and add it to your 'Watched' list.</p>
+    </section>
+    <!-- Generator Button -->
+    <button name="generate" class="btnMovie">Pick Studio Ghibli Movie</button>
+
+    <!-- User List Buttons -->
+    <button name="watchList" class="btnWatchList">Watch List</button>
+    <button name="watched" class="btnSeen">Seen</button>
+
+    <!-- User Lists -->
+    <section class="sgLists hide">
+        <ul class="sgToWatch">
+
+        </ul>
+        <ul class="sgWatched">
+
+        </ul>
+    </section>
+
+    <!-- Container -->
+    <section class="container hide">
+        <!-- Sort Buttons -->
+        <button name="addWatchList" class="sortWatchList">+ Watch List</button>
+        <button name="addSeen" class="sortSeen">+ Seen</button>
+
+        <!-- English Title -->
+        <h2 class="enTitle"></h2>
+
+        <!-- Data and Poster -->
+        <section class="sgDataPoster">
+            <!-- Data -->
+            <section class="sgData">
+                <!-- Japanese Titles -->
+                <section class="jpTitle">
+                    <span class="jpCharacters"></span>
+                    <span class="rmCharacters"></span>
+                </section>
+                <!-- Director & Producer -->
+                <section class="sgStaff">
+                    <section>
+                        <h4>Director:</h4>
+                        <span class="sgDirector"></span>
+                    </section>
+                    <section>
+                        <h4>Producer:</h4>
+                        <span class="sgProducer"></span>
+                    </section>
+                </section>
+                <!-- Statistics -->
+                <section class="sgStats">
+                    <section>
+                        <h4>Release Year:</h4>
+                        <span class="sgYear"></span>
+                    </section>
+                    <section>
+                        <h4>Run Time:</h4>
+                        <span class="sgRunTime"></span>
+                    </section>
+                    <section>
+                        <h4>Critic Rating:</h4>
+                        <span class="sgRating"></span>
+                    </section>
+                </section>
+            </section>
+            <!-- Poster -->
+            <section class="sgPoster">
+                <img src="" alt="" class="sgImg">
+            </section>
+        </section>
+        <!-- Description -->
+        <section class="sgDescription">
+            <h3>Summary:</h3>
+            <p class="sgSummary"></p>
+        </section>
+    </section>
     
+    <!-- Linked JavaScript Files -->
     <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
