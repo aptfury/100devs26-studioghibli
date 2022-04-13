@@ -45,88 +45,29 @@ html {
     margin-bottom: 10px;
 }
 
-.btnList {
-    width: 303px;
-    margin: auto;
-}
-
-.btnWatchList, .btnSeen {
-    background-color: #000;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    width: 150px;
-    padding: 10px;
-    border: none;
-}
-
-/* User Lists */
-.sgLists {
-    background-color: rgba(241, 241, 241, 0.322);
-    width: 400px;
-    height: 200px;
-    overflow: auto;
-    margin: 20px auto;
-    border: 1px solid rgb(175, 175, 175);
-    padding: 10px;
-}
-
-.sgLists ul {
-    padding: 0;
-}
-
-.sgLists h4 {
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 1rem;
-}
-
 /* Movie Container */
 .container {
     width: 600px;
     margin: auto;
     padding: 20px;
     border: 1px solid #000;
-}
-
-.sortWatchList {
-    background-color: #000;
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-    width: 279px;
-    letter-spacing: 0.5rem;
-    padding: 10px;
-    border: none;
-    border-right: 2px solid rgb(224, 223, 208);
-}
-
-.sortSeen {
-    background-color: #000;
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-    width: 279px;
-    letter-spacing: 0.5rem;
-    padding: 10px;
-    border: none;
-    border-left: 2px solid rgb(224, 223, 208);
+    margin-top: 20px;
 }
 
 .enTitle {
     margin: 30px auto;
     text-align: center;
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 1.5rem;
+    letter-spacing: 0.2rem;
 }
 
 /* Data & Poster */
 .sgDataPoster {
     display: flex;
     flex-direction: row;
+    margin-bottom: 30px;
 }
 
 .sgData {
@@ -134,7 +75,6 @@ html {
     flex-direction: column;
     justify-content: space-evenly;
     width: 300px;
-    height: 200px;
 }
 
 .jpTitle span {
@@ -144,13 +84,12 @@ html {
 }
 
 .jpCharacters {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 0.2rem;
 }
 
 .rmCharacters {
-    font-size: 1.2rem;
     font-weight: bold;
     font-style: italic;
     color: #616161;
@@ -177,12 +116,12 @@ html {
 
 .sgPoster {
     width: 300px;
-    height: 200px;
     overflow: hidden;
 }
 
 .sgPoster img {
-    height: 200px;
+    width: 278px;
+    border: 2px solid #616161;
 }
 
 /* Statistics */
