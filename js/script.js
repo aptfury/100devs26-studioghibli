@@ -1,7 +1,7 @@
 document.querySelector('.btnMovie').addEventListener('click', generateSGMovie);
 
 function generateSGMovie() {
-    let studioGhibliAPI = 'https://ghibliapi.herokuapp.com/films/?name=';
+    let studioGhibliAPI = 'https://ghibliapi.herokuapp.com/films';
 
     fetch(studioGhibliAPI)
         .then(res => res.json())
