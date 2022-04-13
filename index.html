@@ -19,30 +19,35 @@
     <!-- Generator Button -->
     <button name="generate" class="btnMovie">Pick Studio Ghibli Movie</button>
 
-    <!-- User List Buttons -->
-    <button name="watchList" class="btnWatchList">Watch List</button>
-    <button name="watched" class="btnSeen">Seen</button>
+    <section class="btnList">
+        <!-- User List Buttons -->
+        <button name="watchList" class="btnWatchList">Watch List</button>
+        <button name="watched" class="btnSeen">Seen</button>
+    </section>
 
     <!-- User Lists -->
     <section class="sgLists hide">
-        <ul class="sgToWatch">
+        <h4 class="sgToWatchTitle hide">Need to Watch:</h4>
+        <ul class="sgToWatch hide">
 
         </ul>
-        <ul class="sgWatched">
+        <h4 class="sgWatchedTitle hide">What I've Seen:</h4>
+        <ul class="sgWatched hide">
 
         </ul>
+        <span>You haven't added anything yet!</span>
     </section>
 
     <!-- Container -->
     <section class="container hide">
         <!-- Sort Buttons -->
-        <button name="addWatchList" class="sortWatchList">+ Watch List</button>
-        <button name="addSeen" class="sortSeen">+ Seen</button>
+        <button name="addWatchList" class="sortWatchList">+ Watch List</button><!--
+        --><button name="addSeen" class="sortSeen">+ Seen</button>
 
         <!-- English Title -->
         <h2 class="enTitle"></h2>
 
-        <!-- Data and Poster -->
+        <!-- Data & Poster -->
         <section class="sgDataPoster">
             <!-- Data -->
             <section class="sgData">
@@ -62,25 +67,25 @@
                         <span class="sgProducer"></span>
                     </section>
                 </section>
-                <!-- Statistics -->
-                <section class="sgStats">
-                    <section>
-                        <h4>Release Year:</h4>
-                        <span class="sgYear"></span>
-                    </section>
-                    <section>
-                        <h4>Run Time:</h4>
-                        <span class="sgRunTime"></span>
-                    </section>
-                    <section>
-                        <h4>Critic Rating:</h4>
-                        <span class="sgRating"></span>
-                    </section>
-                </section>
             </section>
             <!-- Poster -->
             <section class="sgPoster">
                 <img src="" alt="" class="sgImg">
+            </section>
+        </section>
+        <!-- Statistics -->
+        <section class="sgStats">
+            <section>
+                <h4>Release Year:</h4>
+                <span class="sgYear"></span>
+            </section>
+            <section>
+                <h4>Run Time:</h4>
+                <span class="sgRunTime"></span>
+            </section>
+            <section>
+                <h4>Critic Rating:</h4>
+                <span class="sgRating"></span>
             </section>
         </section>
         <!-- Description -->
