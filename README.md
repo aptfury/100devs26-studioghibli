@@ -1,5 +1,5 @@
 # 100devs26-studioghibli
-#100 Devs class 26 homework, API 1 of 3
+#100 Devs class 26 homework, API 1 of 3 - [Studio Ghibli API](https://ghibliapi.herokuapp.com/#section/Studio-Ghibli-API)
 
 ### To Do List
 Ignore me, it just helps me to have this here.
